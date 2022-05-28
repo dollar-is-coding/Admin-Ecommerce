@@ -15,7 +15,7 @@
       <!-- loginHeader -->
       <?php include content_path.'loginHeader.php'; ?>
     <!-- loginBody -->
-    <?php include content_path.body_path.'loginBody.php'; ?>
+    <?php include content_path.'loginBody.php'; ?>
 
     <!-- footer -->
     <?php include content_path.'footer.php'; ?>
