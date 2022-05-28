@@ -17,7 +17,6 @@
 
     <div class="" id="home">
 
-        làm từ đây xuống thoi
         <!-- indexHeader -->
         <?php include content_path.'indexHeader.php'; ?>
 

@@ -29,7 +29,7 @@
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="accounts.php">
+                <a class="nav-link active" href="accounts.php">
                   <i class="far fa-user"></i> Accounts
                 </a>
               </li>
