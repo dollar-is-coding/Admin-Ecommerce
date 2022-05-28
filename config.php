@@ -1,0 +1,10 @@
+<?php 
+define("javascript_path","js/");
+define("css_path","css/");
+define("image_path","img/");
+define("content_path","content/");
+define("head_path","head/");
+define("header_path","header/");
+define("body_path","body/");
+define("script_path","script/");
+?>
