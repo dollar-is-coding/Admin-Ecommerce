@@ -22,14 +22,14 @@
                             </div>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="products.html">
+                            <a class="nav-link" href="products.php">
                                 <i class="fas fa-shopping-cart"></i>
                                 Products
                             </a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="accounts.html">
+                            <a class="nav-link" href="accounts.php">
                                 <i class="far fa-user"></i>
                                 Accounts
                             </a>
