@@ -16,6 +16,7 @@
   </head>
 
   <body id="reportsPage">
+    
     <!-- productsHeader -->
     <?php include content_path.'productsHeader.php'; ?>
 
@@ -289,7 +290,7 @@
             <button class="btn btn-primary btn-block text-uppercase mb-3">
               Add new category
             </button>
-            
+
           </div>
         </div>
       </div>
