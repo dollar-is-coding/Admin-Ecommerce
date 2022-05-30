@@ -7,5 +7,4 @@ define("head_path","head/");
 define("header_path","header/");
 define("body_path","body/");
 define("script_path","script/");
-define("mainIndexBody_path","mainIndexBody/");
 ?>

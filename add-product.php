@@ -1,5 +1,4 @@
 <?php include 'config.php'; ?>
-<?php include 'config.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -13,15 +12,15 @@
   </head>
 
   <body>
-    <!-- productsHeader -->
-    <!-- addProductBody -->
-    <!-- footer -->
-    <!-- addProductScript -->
-    <?php 
-    include content_path.'productsHeader.php';
-    include content_path.'addProductsBody.php';
-    include content_path.'footer.php'; 
-    include content_path.script_path.'addProductsScript.php'; 
+  <?php
+    $level='';
+    $isIndex=false;
+    $isLogin=false;
+    $isProducts=false;
+    $isAccounts=false;
+    $isEditProduct=false;
+    $isAddProduct=true;
+    include 'layout.php';
     ?>
   </body>
 </html>

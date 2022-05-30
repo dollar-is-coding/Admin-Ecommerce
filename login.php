@@ -2,7 +2,6 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-
     <!-- meta -->
     <!-- commonLink -->
     <?php 
@@ -11,16 +10,17 @@
     ?>
     <title>Login Page - Product Admin Template</title>
   </head>
+  
   <body>
-      <!-- loginHeader -->
-      <?php include content_path.'loginHeader.php'; ?>
-    <!-- loginBody -->
-    <?php include content_path.'loginBody.php'; ?>
-
-    <!-- footer -->
-    <?php include content_path.'footer.php'; ?>
-
-    <!-- loginScript -->
-   <?php include content_path.script_path.'loginScript.php'; ?>
+  <?php
+    $level='';
+    $isIndex=false;
+    $isLogin=true;
+    $isProducts=false;
+    $isAccounts=false;
+    $isEditProduct=false;
+    $isAddProduct=false;
+    include 'layout.php';
+    ?>
   </body>
 </html>
