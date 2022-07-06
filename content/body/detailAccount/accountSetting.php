@@ -1,7 +1,7 @@
 <div class="tm-block-col tm-col-account-settings">
             <div class="tm-bg-primary-dark tm-block tm-block-settings">
               <h2 class="tm-block-title">Account Settings</h2>
-              <form action="" class="tm-signup-form row">
+              <form action="content\body\detailAccount\accountSetting-process.php" class="tm-signup-form row" method="POST" >
                 <div class="form-group col-lg-6">
                   <label for="name">Account Name</label>
                   <input
@@ -25,15 +25,6 @@
                   <input
                     id="password"
                     name="password"
-                    type="password"
-                    class="form-control validate"
-                  />
-                </div>
-                <div class="form-group col-lg-6">
-                  <label for="password2">Re-enter Password</label>
-                  <input
-                    id="password2"
-                    name="password2"
                     type="password"
                     class="form-control validate"
                   />

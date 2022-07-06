@@ -1,4 +1,6 @@
-<?php include 'config.php'; ?>
+<?php include 'config.php';
+ ?>
+ <!-- include 'content\body\addProductsForm-process.php'; -->
 <!DOCTYPE html>
 <html lang="en">
   <head>
