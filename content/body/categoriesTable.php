@@ -8,7 +8,8 @@
                   <?php foreach ($dsdanhmuc_rowsdata as $data) {
                   ?>
                   <tr>
-                    <td class="tm-product-name"><?php echo $data['tenDanhMuc']; ?></td>
+                    <td><?php echo $data['tenDanhMuc']; ?></td>
+                    <!-- class="tm-product-name" -->
                     <td class="text-center">
                       <a href="#" class="tm-product-delete-link">
                         <i class="far fa-trash-alt tm-product-delete-icon"></i>
